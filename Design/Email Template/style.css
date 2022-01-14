@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+    background-color: #f6f9fc;
+}
+
+.wrapper{
+    width: 100%;
+    background-color: #f6f9fc;
+    padding-bottom: 40px;
+}
+img{
+    max-width: 100%;
+}
+.main{
+    max-width: 650px;
+    background-color: white;
+}
+
+.intro_title{
+    color: red;
+}
+
+.intro_desc{
+    width: 50%;
+}
+
+.bestseller{
+    font-size: 30px;
+}
+.sellers_maintitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.seller_detail1{
+    float: left;
+    width: 50%;
+}
+
+.seller_detail2{
+    float: right;
+    width: 50%;
+}
+
+.sellers_left{
+    margin-bottom: 20px;
+}
+
+.sellers_right{
+    margin-bottom: 20px;
+}
+
+.intro_btn{
+    color: red;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 2%;
+    margin-bottom: 30px;
+}
+
+.holiday_detail{
+    padding: 5%;
+    background-color: rgb(236, 232, 232);
+}
+
+.holiday_detail--desc{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:cursive;
+    color: red;
+}
+
+.unique_color{
+    color: darkolivegreen;
+}
+
+.holiday_btn{
+    color: red;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 15px;
+    padding: 3%;
+    margin-bottom: 30px;
+}
+
+.footer_desc, .footer_shortdesc{
+    color: darkgrey;
+    font-size: 18px;
+}
