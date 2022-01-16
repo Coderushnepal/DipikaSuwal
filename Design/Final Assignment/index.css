@@ -60,6 +60,8 @@
 .logo_subtitle {
     font-weight: 400;
     text-decoration: italic;
+    text-transform: none;
+    margin-right: 20px;
 }
 
 .menu_img {
@@ -152,22 +154,6 @@
 .news_hr {
     border: 1px solid #C4C4C4;
 }
-
-/* .view {
-    margin-left: 50px;
-    margin-bottom: 10px;
-}
-
-.line {
-    margin-bottom: 5px;
-    margin-right: 10px;
-    margin-left: 10px;
-} */
-
-/* .arrow {
-    margin-top:20px;
-    margin-left: 5px;
-} */
 
 .newsupdates_title--main {
     font-weight: normal;
@@ -363,6 +349,7 @@
     .discover_main {
         padding-bottom: 280px;
         margin-top: 20px;
+        padding: auto;
     }
 
     .background_img {
@@ -386,7 +373,8 @@
 
     .discover_downside--img {
         width: 90%;
-        margin: 10px;
+        margin: auto;
+        padding: auto;
     }
 
     .discover_desc {
@@ -518,7 +506,7 @@
         font-size: 16px;
         text-align: center;
         line-height: 150%;
-        /* padding: 0% 3% 0% 3%; */
+        padding: 0% 5% 0% 5%;
     }
 
     .footer_second--title, .footer_third {
@@ -613,7 +601,7 @@
     .menu_img {
         /* margin-top: 10px;
         margin-right: 20px; */
-        display:block;
+        display: block;
     }
 
     .navbar_ul {
@@ -929,6 +917,7 @@
         margin-top: 20px;
         padding-bottom: 6%;
         max-width: 1500px;
+        margin: 0 auto;
     }
 
     .logo {
@@ -993,6 +982,7 @@
 
     .intro {
         max-width: 1400px;
+        margin: 0 auto;
     }
 
     .intro_title {
@@ -1037,6 +1027,7 @@
         padding-bottom: 350px;
         margin-top: 20px;
         max-width: 1400px;
+        margin: 0 auto;
     }
 
     .background_img {
@@ -1096,6 +1087,7 @@
 
     .newsupdates_main {
         max-width: 1400px;
+        margin: 0 auto;
     }
 
     .newsupdates_title {
@@ -1121,15 +1113,19 @@
         margin-left: 5px;
     }
 
-    .newsupdates_main{
+    .newsupdates_main {
         margin-bottom: 96px;
     }
+
     .newsupdates_title--main {
         font-style: normal;
         font-size: 45px;
         line-height: 110%;
     }
-
+    .newsupdates_title{
+        max-width: 1400px;
+        margin: 0 auto;
+    }
     .view_part {
         font-style: normal;
         font-size: 14px;
@@ -1188,9 +1184,10 @@
     }
 
 
-    .top_margin{
+    .top_margin {
         margin-top: 10px;
     }
+
     .news1_img {
         margin-right: 0%;
         /* width: 40%; */
@@ -1199,7 +1196,7 @@
     .lush {
         width: 90%;
         margin: 0% 0% 2% 0%;
-        
+
     }
 
     .new2_detail {
@@ -1208,6 +1205,7 @@
 
     .footer, .reserved {
         max-width: 1400px;
+        margin: 0 auto;
     }
 
     .footer_first {
