@@ -78,15 +78,20 @@
 
 .img-size {
     border: 2px solid #343D33;
-    border-radius: 200px 200px 0px 0px;
+    border-radius: 47% 47% 0% 0%;
     padding: 1%;
+    width: 100%;
 }
 
 .btn_design {
     background-color: white;
     font-weight: bold;
-    color: black;
     border: 2px solid #475F45;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #475F45;
 }
 
 .btn_design:hover {
@@ -108,9 +113,15 @@
     position: absolute;
     top: 50px;
 }
-.background_img{
+
+.discover_downside--img, .discover_img--size, .plant_img--size {
+    width: 100%;
+}
+
+.background_img {
     opacity: 0.2;
 }
+
 /* .discover_img--size{
     width: 90%;
     margin:10px;
@@ -250,7 +261,7 @@
 }
 
 /* mobile view */
-@media screen and (min-width:375px) {
+@media screen and (min-width:320px) {
     * {
         box-sizing: border-box;
         margin: 0;
@@ -268,20 +279,24 @@
         margin-top: 5px;
     }
 
+    .logo_img {
+        width: 80%;
+    }
+
     .logo_name {
         margin-left: 0px;
-        font-size: 10px;
+        /* font-size: 10px; */
         line-height: 22px;
     }
 
     .logo_title {
-        font-size: 19px;
+        font-size: 19.0927px;
         font-weight: 500;
         margin-right: 50px;
     }
 
     .logo_subtitle {
-        font-size: 12.45px;
+        font-size: 12.4517px;
         font-weight: 400;
         text-decoration: italic;
     }
@@ -299,6 +314,8 @@
 
     .intro {
         max-width: 100%;
+        margin-right: 15px;
+
     }
 
     .intro_title {
@@ -309,15 +326,15 @@
 
     .intro_detail {
         margin-top: 0px;
-        margin-left: 30px;
-        max-width: 300px;
+        padding-left: 30px;
+        max-width: 100%;
     }
 
     .intro_img {
         margin-top: 10px;
-        margin-left: 70px;
-        margin-right: 50px;
-
+        padding-left: 70px;
+        padding-right: 70px;
+        /* align:center; */
     }
 
     .img-size {
@@ -326,23 +343,25 @@
 
     .intro_desc {
         font-weight: 300;
-        font-size: 27px;
         text-align: center;
+        font-size: 20px;
+        margin-top: 10px;
+        text-transform: none;
+        /* padding: 0% 15% 0% 15%; */
     }
 
     .btn_design {
-        max-width: 120px;
+        max-width: 160px;
         padding: 2%;
-        padding-left: 5%;
-        padding-right: 5%;
-        margin-left: 30px;
+        margin-left: 10px;
         margin-top: 20px;
-        font-size: 16px;
+        font-size: 14px;
         text-align: center;
+        margin-bottom: 10px;
     }
 
     .discover_main {
-        padding-bottom: 80%;
+        padding-bottom: 280px;
         margin-top: 20px;
     }
 
@@ -353,7 +372,7 @@
     }
 
     .discover_upside {
-        top: 50px;
+        top: 5%;
     }
 
     .discover_img--size {
@@ -362,28 +381,32 @@
     }
 
     .discover_downside {
-        top: 280px;
+        top: 40.5%;
     }
 
     .discover_downside--img {
         width: 90%;
-        margin: 10px
+        margin: 10px;
     }
 
     .discover_desc {
         /* position: absolute; */
-        margin-top: 150px;
+        margin-top: 48%;
         padding-left: 2%;
         padding-right: 2%;
+        width: 100%;
         margin-left: 20px;
     }
 
     .discover_btn--design {
-        padding-left: 2%;
-        padding-right: 2%;
-        padding-top: 1%;
-        padding-bottom: 1%;
+        padding: 1% 2% 1% 2%;
+        margin-top: 10px;
         font-size: 14px;
+        font-weight: bold;
+        line-height: 16px;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: #FFFFFF;
         /* margin-left: 90px; */
     }
 
@@ -427,7 +450,12 @@
         font-style: normal;
         font-size: 23px;
         line-height: 110%;
-        /* margin-left: 25%; */
+        margin-bottom: 10px;
+    }
+
+    .plant_img--size {
+        max-width: 100%;
+        margin-bottom: 10px;
     }
 
     .plant_subdetail {
@@ -435,6 +463,7 @@
         font-size: 16px;
         line-height: 150%;
         text-align: center;
+        padding: 0% 10% 0% 10%;
     }
 
     .date {
@@ -445,24 +474,27 @@
         margin-left: 20px;
     }
 
+    .news {
+        width: 100%;
+    }
+
     .news1_img {
         margin-left: 15%;
         margin-right: 15%;
         margin-top: 5%;
         margin-bottom: 5%;
+        float: none;
     }
 
     .new2_detail {
         margin-bottom: 5%;
+        float: none;
+        padding: 0% 10% 0% 10%;
+        /* width: 320px; */
     }
 
-    .footer_logo {
-        margin-left: 50px;
-    }
-
-    .footer_logo--name {
-        margin-right: 25%;
-
+    .footer_logo--main {
+        width: 240px;
     }
 
     .footer_logo--title {
@@ -470,7 +502,7 @@
         font-weight: 500;
         font-size: 18.8959px;
         line-height: 22px;
-
+        margin-right: 10px;
     }
 
     .footer_logo--subtitle {
@@ -486,6 +518,7 @@
         font-size: 16px;
         text-align: center;
         line-height: 150%;
+        /* padding: 0% 3% 0% 3%; */
     }
 
     .footer_second--title, .footer_third {
@@ -493,13 +526,13 @@
     }
 
     .footer_second--title {
-        margin-left: 120px;
+        margin-left: 100px;
         margin-top: 20px;
         margin-bottom: 10px;
     }
 
     .footer_title, .footer_third--title {
-        font-size: 20px;
+        font-size: 16px;
         line-height: 110%;
     }
 
@@ -509,7 +542,7 @@
         font-size: 14px;
         line-height: 16px;
         margin-bottom: 10px;
-        margin-left: 90px;
+        margin-left: 60px;
     }
 
     .footer_third {
@@ -522,7 +555,7 @@
     }
 
     .footer_connect {
-        margin-right: 40px;
+        margin-right: 27px;
     }
 
     .connect {
@@ -539,7 +572,6 @@
 /* tablet view */
 @media screen and (min-width:768px) {
     * {
-        box-sizing: border-box;
         margin: 0;
         text-align: left;
     }
@@ -551,7 +583,7 @@
     }
 
     .logo {
-        margin-left: 10px;
+        margin-left: 80px;
         margin-top: 5px;
     }
 
@@ -562,12 +594,12 @@
     }
 
     .logo_title {
-        font-size: 22px;
+        font-size: 23px;
         font-weight: 500;
     }
 
     .logo_subtitle {
-        font-size: 11px;
+        font-size: 12px;
         font-weight: 400;
         text-decoration: italic;
         margin-right: 40px;
@@ -581,78 +613,64 @@
     .menu_img {
         /* margin-top: 10px;
         margin-right: 20px; */
+        display:block;
+    }
+
+    .navbar_ul {
         display: none;
     }
 
-    .navbar__ul {
-        margin-right: 0px;
+    .menu_img {
         display: block;
-        list-style-type: none;
-
     }
-
-    .navbar__ul--li {
-        display: block;
-        /* margin-top: 10px; */
-        margin-bottom: 10px;
-        margin-right: 5px;
-        font-size: 11px;
-        display: inline-block;
-
-    }
-
-    .navbar__ul--li a {
-        color: #414840;
-    }
-
-    .navbar_btn {
-        padding: 5px 20px;
-        font-size: 12px;
-    }
-
 
     .intro {
-        max-width: 100%;
+        max-width: 90%;
     }
 
     .intro_title {
-        font-size: 34px;
+        font-size: 40px;
         font-weight: 400;
         text-align: left;
     }
 
     .intro_detail {
-        margin-top: 50px;
+        margin-top: 80px;
         /* margin-left: 30px; */
-        max-width: 39%;
+        max-width: 50%;
+        padding: 0% 3% 0% 5%;
     }
 
     .intro_img {
-        margin-top: 10px;
-        max-width: 38.1666667%;
+        margin-top: 0px;
+        max-width: 49%;
+        margin-left: 5px;
+        margin-right: 0px;
+        padding: 0% 3% 1% 3%;
     }
 
     .img-size {
-        max-width: 80%;
-        margin-left: 50px;
+        max-width: 100%;
+        /* margin-left: 50px; */
     }
 
     .intro_desc {
         text-align: left;
-        font-weight: 300;
-        font-size: 23px;
+        font-weight: 400;
+        font-size: 18px;
         margin-top: 10px;
+        padding: 0%;
         margin-bottom: 5px;
     }
 
     .btn_design {
-        max-width: 120px;
-        padding: 2%;
-        font-size: 16px;
+        max-width: 160px;
+        padding: 2% 1% 2% 1%;
+        font-size: 14px;
     }
 
     .discover_main {
-        padding-bottom: 8%;
+        padding-bottom: 100px;
         margin-top: 20px;
     }
 
@@ -677,7 +695,7 @@
     }
 
     .discover_downside--img {
-        width: 90%;
+        width: 700px;
         margin: 50px
     }
 
@@ -714,7 +732,7 @@
     }
 
     .view {
-        margin-left: 20px;
+        margin-left: 0px;
         margin-bottom: 20px;
         margin-top: 10px;
     }
@@ -723,7 +741,7 @@
         margin-bottom: 5px;
         margin-right: 10px;
         /* margin-left: 10px; */
-        width: 15%;
+        width: 10%;
     }
 
     .arrow {
@@ -745,6 +763,7 @@
 
     .plant_main {
         width: 45%;
+        float: left;
     }
 
     .plant_img {
@@ -775,6 +794,7 @@
         line-height: 150%;
         text-align: left;
         margin-top: 10px;
+        padding: 0%;
     }
 
     .date {
@@ -797,6 +817,8 @@
 
     .news1_img {
         margin: 0%;
+        padding: 0%;
+        float: left;
         width: 40%;
     }
 
@@ -809,6 +831,8 @@
     .new2_detail {
         /* margin:0%; */
         width: 60%;
+        float: right;
+        padding: 0%;
 
         /* font-size: 16px; */
     }
@@ -823,6 +847,10 @@
 
     .footer_logo--name {
         margin-right: 10%;
+    }
+
+    .footer_logo--main {
+        width: 290px;
     }
 
     .footer_logo--title {
@@ -900,7 +928,7 @@
     .header {
         margin-top: 20px;
         padding-bottom: 6%;
-        max-width: 100%;
+        max-width: 1500px;
     }
 
     .logo {
@@ -910,7 +938,6 @@
 
     .logo_name {
         margin-left: 0px;
-        font-size: 10px;
         line-height: 22px;
     }
 
@@ -920,7 +947,7 @@
     }
 
     .logo_subtitle {
-        font-size: 12px;
+        font-size: 15px;
         font-weight: 400;
         text-decoration: italic;
         margin-right: 40px;
@@ -938,7 +965,7 @@
     }
 
     .navbar__ul {
-        margin-right: 80px;
+        margin-right: 40px;
         display: block;
         list-style-type: none;
 
@@ -965,29 +992,30 @@
 
 
     .intro {
-        max-width: 100%;
+        max-width: 1400px;
     }
 
     .intro_title {
         font-size: 57px;
         font-weight: 400;
         text-align: left;
-        margin-top: 80px;
+        margin-top: 50px;
     }
 
     .intro_detail {
         margin-top: 30px;
         margin-left: 90px;
-        max-width: 40%;
+        max-width: 45%;
     }
 
     .intro_img {
         margin-top: 10px;
         max-width: 38.1666667%;
+        margin-right: 80px;
     }
 
     .img-size {
-        max-width: 80%;
+        max-width: 100%;
         margin-left: 50px;
     }
 
@@ -1000,14 +1028,15 @@
     }
 
     .btn_design {
-        max-width: 120px;
-        padding: 2%;
+        max-width: 160px;
+        padding: 3%;
         font-size: 16px;
     }
 
     .discover_main {
-        padding-bottom: 32%;
+        padding-bottom: 350px;
         margin-top: 20px;
+        max-width: 1400px;
     }
 
     .background_img {
@@ -1043,9 +1072,11 @@
         padding-right: 2%;
         margin-left: 100%;
     }
-    .discover_desc--title{
+
+    .discover_desc--title {
         font-size: 45px;
     }
+
     .discover_desc--detail {
         margin-top: 10px;
         margin-bottom: 15px;
@@ -1064,16 +1095,16 @@
     }
 
     .newsupdates_main {
-        max-width: 100%;
+        max-width: 1400px;
     }
 
     .newsupdates_title {
         margin-top: 50px;
-        margin-left: 20px;
+        margin-left: 50px;
     }
 
     .view {
-        margin-left: 20px;
+        margin-left: 0px;
         margin-bottom: 20px;
         margin-top: 10px;
     }
@@ -1082,7 +1113,7 @@
         margin-bottom: 5px;
         margin-right: 10px;
         /* margin-left: 10px; */
-        width: 15%;
+        width: 10%;
     }
 
     .arrow {
@@ -1090,6 +1121,9 @@
         margin-left: 5px;
     }
 
+    .newsupdates_main{
+        margin-bottom: 96px;
+    }
     .newsupdates_title--main {
         font-style: normal;
         font-size: 45px;
@@ -1107,7 +1141,7 @@
     }
 
     .plant_img {
-        margin-left: 5%;
+        margin-left: 10%;
         margin-bottom: 10px;
         /* width: 5%; */
     }
@@ -1125,7 +1159,7 @@
 
     .plant_detail {
         width: 90%;
-        margin-left: 5%;
+        margin-left: 10%;
     }
 
     .plant_subdetail {
@@ -1150,21 +1184,30 @@
     .news1 {
         width: 100%;
         margin-right: 0%;
-        margin-top: 10px;
+        margin-top: 0px;
     }
 
+
+    .top_margin{
+        margin-top: 10px;
+    }
     .news1_img {
-        margin: 0%;
-        width: 40%;
+        margin-right: 0%;
+        /* width: 40%; */
     }
 
     .lush {
-        width: 80%;
-        margin: 0%;
+        width: 90%;
+        margin: 0% 0% 2% 0%;
+        
     }
 
     .new2_detail {
         width: 60%;
+    }
+
+    .footer, .reserved {
+        max-width: 1400px;
     }
 
     .footer_first {
@@ -1176,7 +1219,7 @@
     }
 
     .footer_logo--name {
-        margin-right:45%;
+        margin-right: 10%;
     }
 
     .footer_logo--title {
@@ -1199,6 +1242,7 @@
         text-align: left;
         width: 80%;
         margin-left: 50px;
+        font-size: 16px;
         margin-top: 10px;
     }
 
@@ -1206,12 +1250,16 @@
         text-align: center;
         margin-bottom: 20px;
         margin-right: 0px;
-        margin-left: 0px;
+        margin-left: 50px;
         margin-top: 0px;
     }
 
+    .footer_third {
+        margin-right: 20px;
+    }
+
     .footer_title, .footer_third--title {
-        font-size: 20px;
+        font-size: 16px;
         line-height: 110%;
         margin-top: 0px;
     }
@@ -1222,11 +1270,11 @@
         font-size: 14px;
         line-height: 16px;
         margin-bottom: 10px;
-        margin-left: 0px;
+        margin-left: 50px;
     }
 
     .footer_connect {
-        margin-right: 30px;
+        margin-right: 40px;
     }
 
     .connect {
@@ -1234,7 +1282,7 @@
     }
 
     .reserved {
-        padding: 3%;
+        padding: 30px;
         text-align: center;
     }
 }
