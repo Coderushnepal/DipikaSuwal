@@ -1,0 +1,34 @@
+.wrapper {
+    background-color: rgb(240, 236, 236);
+    padding: 10px;
+    width: 25%;
+    margin: 3%;
+}
+
+.password {
+    width: 80%;
+    height: 30px;
+}
+
+/* .myicon{
+    position: absolute;
+} */
+
+.myicon {
+    position: absolute;
+    left: 23%;
+    top: 9%;
+}
+
+.downside {
+    margin-top: 20px;
+}
+
+.forgot {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.button {
+    margin-left: 25%;
+}
