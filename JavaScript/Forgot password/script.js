@@ -33,11 +33,16 @@ var forgot=document.createElement("span");
 forgot.classList.add("forgot");
 forgot.innerHTML="Forgot password?";
 
-
 //create a tag
 var anchor=document.createElement("a");
 anchor.href="#";
-anchor.appendChild(forgot);
+anchor.appendChild(forgot); 
+
+//create anchor event listener
+anchor.addEventListener("click", function(event){
+    var valueOfUser= document.getElementById("pass");
+    password.value="";
+})
 
 //create button 
 var button=document.createElement("button");

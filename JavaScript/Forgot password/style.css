@@ -8,11 +8,8 @@
 .password {
     width: 80%;
     height: 30px;
+    background-color:cornflowerblue;
 }
-
-/* .myicon{
-    position: absolute;
-} */
 
 .myicon {
     position: absolute;
