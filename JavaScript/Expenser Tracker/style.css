@@ -1,0 +1,55 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.historyList {
+    list-style-type: none;
+    font-size: 18px;
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    margin: 5px 0;
+}
+
+.history-span {
+    float: right;
+    font-size: 18px;
+    background-color: white;
+}
+
+.buttonDelete {
+    color: white;
+    border: none;
+    font-size: 20px;
+    background-color: #c0392b;
+    line-height: 20px;
+    padding: 2px 5px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-120%, -50%);
+    opacity: 1;
+}
+
+.btn {
+    color: white;
+    border: 0;
+    background-color: #9c88ff;
+    font-size: 18px;
+    width: 100%;
+    padding: 10px 112px;
+}
+
+.income-amt{
+    border-right: 5px solid green;
+}
+.expense-amt{
+    border-right:5px solid #c0392b;
+}
